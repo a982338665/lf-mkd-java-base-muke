@@ -25,6 +25,15 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+
+
+
+
 		<!--使用freemarker的starter，里面包含spring-boot-starter-web组件-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
