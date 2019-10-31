@@ -3,7 +3,7 @@ package com.hdsf.middle.junit;
 
 import org.junit.Test;
 
-public class junitTest {
+public class JunitTest {
 
     @Test
     public void xx(){
