@@ -1,4 +1,4 @@
-package com.hdsf.middle.junit.text;
+package com.hdsf.middle.text;
 
 
 import java.util.Locale;

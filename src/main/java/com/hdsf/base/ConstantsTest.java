@@ -15,18 +15,18 @@ public class ConstantsTest {
     public static void main(String[] args) {
         Integer a1 = 127;
         Integer a2 = 127;
-        System.err.println(a1 == a2);
+        System.err.println(a1 == a2);//true
         Integer a4 = 128;
         Integer a5 = 128;
         //因为128超过常量池缓存范围 所以是两个地址，不相等
-        System.err.println(a4 == a5);
+        System.err.println(a4 == a5);//false
         Integer a3 = new Integer(127);
-        System.err.println(a1 == a3);
+        System.err.println(a1 == a3);//false
         String a6 = "abc";
         String a7 = "a"+"bc";//此处在编译的时候 会被认定为 abc 所以不会再分配空间
         String a8 = "a"+"b"+"c";
-        System.err.println(a6==a7);
-        System.err.println(a6==a8);
+        System.err.println(a6==a7);//true
+        System.err.println(a6==a8);//true
 
 
         int q1 = 4;
